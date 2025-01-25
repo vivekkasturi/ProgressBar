@@ -7,7 +7,7 @@ test('renders progress bar', () => {
   expect(progressBarq).toBeInTheDocument();
 });
 
-test('renders progress bar with 0% progress', () => {
+test('renders progress bar with 0% prgit push --set-upstream origin masterogress', () => {
   render(<ProgressBar />);
   const progressBarq = screen.getByText('0%');
   expect(progressBarq).toBeInTheDocument();

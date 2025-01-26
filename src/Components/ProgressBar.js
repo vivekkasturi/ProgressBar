@@ -20,6 +20,7 @@ function ProgressBar() {
 
                 <div style={{ width: '500px', height: '20px', border: '1px solid black', borderRadius: '5px', margin: '10px' }}>
 
+                    {/* //progress bar */}
                     <div style={{ backgroundColor: 'green', width: `${progress}%`, height: '20px' }}> </div>
                 </div>
 

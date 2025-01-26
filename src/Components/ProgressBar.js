@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 function ProgressBar() {
     const [progress, setProgress] = useState(0);
 
+    //incrementing the progress bar by 10%
     const incrementValue = () => {
         if (progress < 100) {
             setProgress(progress + 10);
